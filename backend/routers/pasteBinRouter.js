@@ -8,6 +8,6 @@ import {
 const binRoute = express.Router();
 
 binRoute.post("/pastes", createPaste);
-binRoute.get("/healtz", healthCheck);
+binRoute.get("/healthz", healthCheck);
 binRoute.get("/pastes/:id", getContent);
 export default binRoute;

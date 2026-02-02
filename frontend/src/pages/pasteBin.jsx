@@ -63,6 +63,8 @@ const PasteBin = () => {
     }
   };
 
+  if (loading) return <p className="loading">Loading...</p>;
+
   return (
     <div className="pastebin-container">
       <h2>Create Paste</h2>

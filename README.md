@@ -47,7 +47,7 @@ npm start
 ---
 
 ### .env
-
+```bash
 MONGO_URI=your_mongodb_connection_string
 PORT=3000
 BASE_URL=http://localhost:5173

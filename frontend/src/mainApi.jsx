@@ -1,4 +1,4 @@
-const backendURI = "http://localhost:3000";
+const backendURI = "https://paste-bin-pearl.vercel.app";
 
 const pasteBinURI = `${backendURI}/api`;
 

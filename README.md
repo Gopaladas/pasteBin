@@ -41,7 +41,10 @@ cd backend
 npm install
 
 ### Backend Run
-
-```bash
-cd backend
 npm start
+
+MONGO_URI=your_mongodb_connection_string
+PORT=3000
+BASE_URL=http://localhost:5173
+
+

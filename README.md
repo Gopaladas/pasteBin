@@ -40,14 +40,17 @@ automatically become unavailable when expired or when the view limit is reached.
 cd backend
 npm install
 
-
----
-
 ```
 ## Backend Run
 npm start
 
 ---
+
+```
+---
+
+```
+### .env
 
 MONGO_URI=your_mongodb_connection_string
 PORT=3000

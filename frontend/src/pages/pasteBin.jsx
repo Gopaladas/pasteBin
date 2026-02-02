@@ -13,7 +13,7 @@ const PasteBin = () => {
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
   const [copied, setCopied] = useState(false);
-
+  const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -26,7 +26,7 @@ const PasteBin = () => {
     e.preventDefault();
     setError("");
     setResult(null);
-
+    setLoading(true);
     try {
       const payload = { content: formData.content };
 
@@ -48,6 +48,8 @@ const PasteBin = () => {
       } else {
         setError("Server not reachable");
       }
+    } finally {
+      setLoading(false);
     }
   };
 

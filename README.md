@@ -29,8 +29,8 @@ automatically become unavailable when expired or when the view limit is reached.
 ## Running the Project Locally
 
 ### Prerequisites
-- Node.js (v18+ recommended)
-- MongoDB Atlas account or local MongoDB
+- Node.js 
+- MongoDB Atlas Link
 
 ---
 
@@ -40,11 +40,38 @@ automatically become unavailable when expired or when the view limit is reached.
 cd backend
 npm install
 
-### Backend Run
+```
+## Backend Run
+```bash
 npm start
+```
+---
 
+### .env
+```bash
 MONGO_URI=your_mongodb_connection_string
 PORT=3000
 BASE_URL=http://localhost:5173
 
+```
+---
 
+### Frontend SetUp
+```bash
+cd frontend
+npm install
+
+```
+
+### Frontend Run
+```bash
+cd frontend
+npm run dev
+```
+---
+
+## In Frontend mainAPI
+```
+  1. backendURI="http://localhost:3000"
+  2. Then check the functionalities in website.
+```

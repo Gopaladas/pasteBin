@@ -39,3 +39,9 @@ automatically become unavailable when expired or when the view limit is reached.
 ```bash
 cd backend
 npm install
+
+### Backend Run
+
+```bash
+cd backend
+npm start

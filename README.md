@@ -29,8 +29,8 @@ automatically become unavailable when expired or when the view limit is reached.
 ## Running the Project Locally
 
 ### Prerequisites
-- Node.js (v18+ recommended)
-- MongoDB Atlas account or local MongoDB
+- Node.js 
+- MongoDB Atlas Link
 
 ---
 

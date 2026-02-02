@@ -55,12 +55,15 @@ BASE_URL=http://localhost:5173
 ---
 
 ```
+---
+
 ### Frontend SetUp
+```bash
 cd frontend
 npm install
 
 ```
-
+```
 ```
 ### Frontend Run
 cd frontend

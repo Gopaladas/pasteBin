@@ -52,4 +52,16 @@ MONGO_URI=your_mongodb_connection_string
 PORT=3000
 BASE_URL=http://localhost:5173
 
+---
 
+```
+### Frontend SetUp
+cd frontend
+npm install
+
+```
+
+```
+### Frontend Run
+cd frontend
+npm run dev

@@ -40,7 +40,7 @@ automatically become unavailable when expired or when the view limit is reached.
 cd backend
 npm install
 
-### Backend Run
+Backend Run
 npm start
 
 MONGO_URI=your_mongodb_connection_string

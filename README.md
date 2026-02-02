@@ -42,8 +42,9 @@ npm install
 
 ```
 ## Backend Run
+```bash
 npm start
-
+```
 ---
 
 ### .env

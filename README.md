@@ -107,5 +107,5 @@ if we set it to 1 then the user input time is not considered.
       now = Number(req.headers["x-test-now-ms"]);
     }
 The time which is comming from headers is considered it is in seconds format.
-To avoid the real world time.
+To avoid the real world time lag.
 ```

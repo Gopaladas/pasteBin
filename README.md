@@ -97,6 +97,7 @@ npm run dev
   1. backendURI="http://localhost:3000"
   2. Then check the functionalities in website.
 ```
+---
 ### Persistance Layer
 
 ```

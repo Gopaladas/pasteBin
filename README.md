@@ -97,3 +97,15 @@ npm run dev
   1. backendURI="http://localhost:3000"
   2. Then check the functionalities in website.
 ```
+### Persistance Layer
+
+```
+In .env file set the TEST_MODE=1.
+if we set it to 1 then the user input time is not considered.
+    let now = Date.now();
+    if (process.env.TEST_MODE === "1" && req.headers["x-test-now-ms"]) {
+      now = Number(req.headers["x-test-now-ms"]);
+    }
+The time which is comming from headers is considered it is in seconds format.
+To avoid the real world time.
+```

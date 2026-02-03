@@ -59,13 +59,13 @@ get("/api/pastes/:id", getContent);
 ### Backend Setup
 
 ```bash
-cd backend
-npm install
+$paste_bin> cd backend
+$backend> npm install
 
 ```
 ## Backend Run
 ```bash
-npm start
+$backend> npm start
 ```
 ---
 
@@ -80,15 +80,14 @@ BASE_URL=http://localhost:5173
 
 ### Frontend SetUp
 ```bash
-cd frontend
-npm install
+$paste_bin> cd frontend
+$frontend> npm install
 
 ```
 
 ### Frontend Run
 ```bash
-cd frontend
-npm run dev
+$frontend> npm run dev
 ```
 ---
 

@@ -34,6 +34,20 @@ automatically become unavailable when expired or when the view limit is reached.
 
 ---
 
+### Deployed Backend URL
+```
+https://paste-bin-pearl.vercel.app/
+```
+---
+
+### Deployed Frontend URL
+
+```
+https://paste-bin-o44b.vercel.app/
+```
+
+---
+
 ### End points of server
 ```
 post ("/api/pastes", createPaste);

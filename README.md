@@ -34,6 +34,14 @@ automatically become unavailable when expired or when the view limit is reached.
 
 ---
 
+### End points of server
+```
+post ("/api/pastes", createPaste);
+get ("/api/healthz", healthCheck);
+get("/api/pastes/:id", getContent);
+```
+---
+
 ### Backend Setup
 
 ```bash
